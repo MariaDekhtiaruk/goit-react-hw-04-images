@@ -56,16 +56,16 @@ export function App() {
   };
 
   const showSelectedImage = image => {
-    setSelectedImage({ selectedImage: image });
+    setSelectedImage(image);
   };
 
   const onCloseModal = () => {
-    setSelectedImage({ selectedImage: null });
+    setSelectedImage(null);
   };
 
   const escFunction = event => {
     if (event.key === 'Escape') {
-      setSelectedImage({ selectedImage: null });
+      setSelectedImage(null);
     }
   };
 
