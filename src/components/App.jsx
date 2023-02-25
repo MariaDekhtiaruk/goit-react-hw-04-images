@@ -8,7 +8,7 @@ import '../index.css';
 import '../styles.css';
 import Loader from './Loader';
 import Modal from './Modal';
-//history
+
 export function App() {
   const [images, setImages] = useState([]);
   const [page, setPage] = useState(1);
